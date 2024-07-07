@@ -1,5 +1,7 @@
+#write a python program that accepts numbers from a user and translate them to words
+
 phone = input("Phone: ")
-mapping_dic = {
+mapping_digits = {
     "0": "zero",
     "1": "one",
     "2": "two",
@@ -13,5 +15,5 @@ mapping_dic = {
 }
 output = ""
 for ch in phone:
-    output += mapping_dic.get(ch, "!") + " "
+    output += mapping_digits.get(ch, "!") + " "
 print(output)
