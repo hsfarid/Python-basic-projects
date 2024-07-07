@@ -5,6 +5,7 @@ numbers  = [3, 2, 7, 120, 89, 56, 45, 90, 32, 78]
 #method 1
 # numbers.sort()
 # print(numbers[-1])
+#print(numbers.pop())
 
 #method 2
 largest = 0
